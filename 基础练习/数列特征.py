@@ -1,0 +1,6 @@
+n = int(input())
+li1 = input().split()
+li2 = list(map(int, li1))
+print(max(li2))
+print(min(li2))
+print(sum(li2))
