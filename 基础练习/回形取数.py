@@ -1,5 +1,6 @@
 # m行n列
 #这玩意过蓝桥的测试会超时，我还没想到节省性能的方法，下次再说
+#可参考这个文章https://blog.csdn.net/weixin_45829462/article/details/103882792
 def flagquan(msize, nsize, mstart, nstart, jzz):
     end = 0
     for i in range(mstart, mstart + msize):
