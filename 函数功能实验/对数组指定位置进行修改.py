@@ -1,0 +1,10 @@
+#m行n列
+#m,n=map(int,input().split())
+m=5
+n=4
+print(m)
+print(n)
+jz=[[0]*n]*m
+print(jz)
+jz[2][3]=5
+print(jz)
